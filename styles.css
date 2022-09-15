@@ -1,1 +1,43 @@
-#edit {background-color:#FFFF99;}
+html, body {
+  background-color: rgb(105, 105, 105);
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+#edit {
+  box-shadow: orange -5px -5px 14px inset, orange 5px 5px 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#update {
+  text-align: center;
+}
+
+.run-all, input {
+  transition: all ease 0.5s;
+  width: 100px;
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  left: 58px;
+  border-radius: 50px;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 50%;
+  font-family: 'Nabla', cursive;
+
+}
+
+.run-all, input:hover {
+  transition: all ease 0.5s;
+  background-color: rgba(15, 113, 15, 0.4);
+  left: 5px;
+  bottom: 5px;
+  width: 200px;
+  height: 60px;
+  font-size: 100%;
+  padding: 0px;
+  margin: 0px;
+}
