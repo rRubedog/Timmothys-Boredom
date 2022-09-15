@@ -1,3 +1,2 @@
-# rubedog-personal
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/rubedog-personal)
+# Website Recommendations
+## I am here to give you this website so that the people can have what they want, your welcome everyone!

@@ -1,9 +1,24 @@
+<!--
+  !!Rights to this code go to the creators of http://www.developerdrive.com/demo/edit_text/edit_text_demo.html !!
+if any developer of that website has a problem with me using the code, please contact me and I will remove it.
+-->
+<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>What do the people want?</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <h1>Hello there!</h1>
-    <a href="/me.html">My other page</a>
+  <body onload="checkEdits()">
+
+    
+
+    <div id="edit" contenteditable="true">
+    Request a website
+    </div>
+
+    <input type="button" value="save my edits" onclick="saveEdits()"/>
+
+    <div id="update"> Edit the text and click to save for next time</div>
+<p>This website was made peossible by me and by the help of this tutorial: <a href="http://www.developerdrive.com/2012/06/allowing-users-to-edit-text-content-with-html5">Allowing Users to Edit Text Content with HTML5</a></p><hr/>
   </body>
 </html>
