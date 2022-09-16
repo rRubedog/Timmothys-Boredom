@@ -1,4 +1,6 @@
 html, body {
+  padding: 0px;
+  margin: 0px;
   background-color: rgb(105, 105, 105);
   color: black;
   font-family: 'Ubuntu', sans-serif;
@@ -6,13 +8,29 @@ html, body {
 }
 
 #edit {
-  box-shadow: orange -5px -5px 14px inset, orange 5px 5px 10px;
+  animation: fade 30s infinite linear;
   margin-bottom: 10px;
   text-align: center;
 }
 
+@keyFrames fade {
+  0%{
+    box-shadow: #63f03d 5px 5px 10px;
+  }
+
+  50%{
+    box-shadow: #3053df 5px 5px 20px
+  }
+
+  100%{
+    box-shadow: #63f03d 5px 5px 10px;
+  }
+}
+
 #update {
   text-align: center;
+  color: #ff4242;
+  text-shadow: hotpink 0px 0px 10px;
 }
 
 .run-all, input {
@@ -31,7 +49,6 @@ html, body {
 }
 
 .run-all, input:hover {
-  transition: all ease 0.5s;
   background-color: rgba(15, 113, 15, 0.4);
   left: 5px;
   bottom: 5px;

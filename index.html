@@ -6,28 +6,50 @@ if any developer of that website has a problem with me using the code, please co
 <html>
   <head>
     <title>Notes</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+    
+    <link rel="stylesheet" href="styles/editboxes.css">
+    <link rel="stylesheet" href="styles/nav.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
   </head>
-  <body onload="checkEdits()">
-
-    
-
-    <div id="edit" contenteditable="true">
-    Edit Me!
+  <body>
+    <div class="nav-wrapper">
+      <div class="icon">
+      <img src="images/notes-logo.webp">
+      </div>
+      <div class="links-wrapper">
+        <div class="link"><a>Link 1</a></div>
+        <div class="link"><a>Link 2</a></div>
+        <div class="link"><a>Link 3</a></div>
+        <div class="link"><a>Link 4</a></div>
+      </div>
     </div>
-    <div id="newEdits"><hr/></div>
     
-    <div class="run-all">
-      <input type="button" value="save my edits" onclick="runAll()"/>
+    <div class="edit-boxes" onload="checkEdits()">
+        
+      <div id="edit" contenteditable="true">
+      Edit Me!
+      </div>
+      
+      <div id="newEdits"><hr/></div>
+      
+      <div class="run-all">
+        <input type="button" value="save my edits" onclick="runAll()"/>
+      </div>
+  
+      <div id="update"> Edit the text and save for next time</div>
+      <p style="text-align: center;">Note:<br>
+        Only the text above the line will be saved for next time.
+      </p>
+      
+      <p style="font-size: 80%; bottom: 0px; right: 10px; position: fixed;">This website was made possible by me and by the help of this tutorial: 
+        <a href="http://www.developerdrive.com/2012/06/allowing-users-to-edit-text-content-with-html5">Allowing Users to Edit Text Content with HTML5</a>
+      </p>
+      
     </div>
-
-    <div id="update"> Edit the text and save for next time</div>
-    <p style="text-align: center;">Note:<br>
-    Only the text above the line will be saved for next time.
-    </p>
-<p style="font-size: 80%; bottom: 0px; position: fixed;">This website was made possible by me and by the help of this tutorial: <a href="http://www.developerdrive.com/2012/06/allowing-users-to-edit-text-content-with-html5">Allowing Users to Edit Text Content with HTML5</a></p>
+    
     <script src="script.js"></script>
   </body>
 </html>
