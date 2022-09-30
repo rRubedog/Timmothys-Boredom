@@ -1,0 +1,6 @@
+.version-wrapper {
+    width: 90%;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgba(87, 87, 87, 0.867);
+}

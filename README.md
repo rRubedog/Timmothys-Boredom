@@ -1,2 +1,4 @@
-# Website Recommendations
-## I am here to give you this website so that the people can have what they want, your welcome everyone!
+# Idk what to do with this website
+## No seriously I need ideas
+## if you have any email me at: rubedog.p960@gmail.com 
+## Thx and a fine pog champ to you fine man or (wo)man
