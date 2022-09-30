@@ -1,6 +1,20 @@
+html, body {
+    background-color: black;
+    color: green;
+}
 .version-wrapper {
     width: 90%;
     height: fit-content;
     border-radius: 10px;
     background-color: rgba(87, 87, 87, 0.867);
+}
+
+.version-num {
+    font-size: 60%;
+}
+
+.version-num > .version-time-released {
+    font-size: 40%;
+    color: blue;
+    text-shadow: blue;
 }
