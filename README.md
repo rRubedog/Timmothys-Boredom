@@ -6,6 +6,6 @@
 ## Features and pages (so far)
 
 ## Update log
-### 0.0.1 - Uploaded first files and code
-### 0.0.3 - Added version history page and update log to readme file
+### 0.0.1 - Uploaded first files and code.
+### 0.0.3 - Started adding the version history page and added update log to the readme file.
 
