@@ -1,5 +1,6 @@
 html, body {
     background-color: black;
+    text-shadow: green 0px 0px 10px;
     color: green;
 }
 .version-wrapper {
@@ -16,5 +17,5 @@ html, body {
 .version-num > .version-time-released {
     font-size: 40%;
     color: blue;
-    text-shadow: blue;
+    text-shadow: blue 0px 0px 10px;
 }
