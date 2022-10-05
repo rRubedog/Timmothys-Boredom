@@ -3,7 +3,8 @@ html, body {
     text-shadow: green 0px 0px 10px;
     color: green;
 }
-.version-wrapper {
+
+.version-wrapper, .version-list, .version {
     width: 90%;
     height: fit-content;
     border-radius: 10px;
